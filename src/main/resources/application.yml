@@ -1,1 +1,8 @@
-
+server:
+  port: 10000
+mongodb:
+  host: ${MONGODB_HOST:localhost}
+  port: ${MONGODB_PORT:27017}
+  username: ${MONGODB_USERNAME:admin}
+  password: ${MONGODB_PASSWORD:admin}
+  database: ${MONGODB_DATABASE:admin}
